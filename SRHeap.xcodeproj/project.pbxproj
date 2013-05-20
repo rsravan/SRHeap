@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A00927CD173D6D4D000AD51E /* SRHeap.m in Sources */ = {isa = PBXBuildFile; fileRef = A00927CC173D6D4D000AD51E /* SRHeap.m */; };
 		A03B4F501732ABD00056D07A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A03B4F4F1732ABD00056D07A /* UIKit.framework */; };
 		A03B4F521732ABD00056D07A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A03B4F511732ABD00056D07A /* Foundation.framework */; };
 		A03B4F541732ABD00056D07A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A03B4F531732ABD00056D07A /* CoreGraphics.framework */; };
@@ -16,9 +17,12 @@
 		A03B4F631732ABD00056D07A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A03B4F621732ABD00056D07A /* ViewController.m */; };
 		A03B4F661732ABD00056D07A /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = A03B4F641732ABD00056D07A /* ViewController_iPhone.xib */; };
 		A03B4F691732ABD00056D07A /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = A03B4F671732ABD00056D07A /* ViewController_iPad.xib */; };
+		A0770414174A9B3E00C26D02 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A0770413174A9B3D00C26D02 /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A00927CB173D6D4D000AD51E /* SRHeap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRHeap.h; sourceTree = "<group>"; };
+		A00927CC173D6D4D000AD51E /* SRHeap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRHeap.m; sourceTree = "<group>"; };
 		A03B4F4B1732ABD00056D07A /* SRHeap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SRHeap.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A03B4F4F1732ABD00056D07A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		A03B4F511732ABD00056D07A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -33,6 +37,7 @@
 		A03B4F621732ABD00056D07A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		A03B4F651732ABD00056D07A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
 		A03B4F681732ABD00056D07A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
+		A0770413174A9B3D00C26D02 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +57,9 @@
 		A03B4F401732ABD00056D07A = {
 			isa = PBXGroup;
 			children = (
+				A0770413174A9B3D00C26D02 /* Default-568h@2x.png */,
+				A00927CB173D6D4D000AD51E /* SRHeap.h */,
+				A00927CC173D6D4D000AD51E /* SRHeap.m */,
 				A03B4F551732ABD00056D07A /* SRHeap */,
 				A03B4F4E1732ABD00056D07A /* Frameworks */,
 				A03B4F4C1732ABD00056D07A /* Products */,
@@ -155,6 +163,7 @@
 				A03B4F5A1732ABD00056D07A /* InfoPlist.strings in Resources */,
 				A03B4F661732ABD00056D07A /* ViewController_iPhone.xib in Resources */,
 				A03B4F691732ABD00056D07A /* ViewController_iPad.xib in Resources */,
+				A0770414174A9B3E00C26D02 /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -168,6 +177,7 @@
 				A03B4F5C1732ABD00056D07A /* main.m in Sources */,
 				A03B4F601732ABD00056D07A /* AppDelegate.m in Sources */,
 				A03B4F631732ABD00056D07A /* ViewController.m in Sources */,
+				A00927CD173D6D4D000AD51E /* SRHeap.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,6 +301,7 @@
 				A03B4F6E1732ABD00056D07A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
