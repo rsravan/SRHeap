@@ -12,8 +12,8 @@
 
 
 -(NSArray*)heapfromArray:(NSArray *)inputArray{
-    
-    heapArray=[[[NSMutableArray alloc] initWithArray:inputArray copyItems:YES] retain];
+
+    heapArray=[[NSMutableArray alloc] initWithArray:inputArray copyItems:YES];
     
     [self buildHeap];
     
