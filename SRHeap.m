@@ -13,7 +13,7 @@
 
 -(NSArray*)heapfromArray:(NSArray *)inputArray{
 
-    heapArray=[[NSMutableArray alloc] initWithArray:inputArray copyItems:YES];
+    heapArray=[[NSMutableArray alloc] initWithArray:inputArray];
     
     [self buildHeap];
     
